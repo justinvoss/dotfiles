@@ -1,0 +1,7 @@
+[core]
+	excludesfile = /Users/Justin/.gitignore_global
+[user]
+	name = Justin Voss
+	email = justin@bleedingwolf.com
+[color]
+	ui = true
