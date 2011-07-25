@@ -16,7 +16,7 @@ alias ls='ls -G'
 
 # dammit, Xcode, it's shit like this
 
-ARCHFLAGS="-arch x86_64"
+ARCHFLAGS="-arch i386 x86_64"
 
 # virtualenvwrapper config
 
