@@ -1,4 +1,8 @@
 
+# add a user-specific folder to the PATH
+
+export PATH=$PATH:~/bin
+
 # add some Git branch info
 
 function parse_git_branch {
