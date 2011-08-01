@@ -31,3 +31,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 source `brew --prefix`/etc/profile.d/z.sh
 
+# sigh, Groovy
+
+export GROOVY_HOME=/usr/local/Cellar/groovy/1.8.1/libexec
+
