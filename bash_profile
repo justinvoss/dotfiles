@@ -27,6 +27,9 @@ ARCHFLAGS="-arch i386 x86_64"
 export WORKON_HOME=~/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
+# RVM config
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
 # z - jump around
 
 source `brew --prefix`/etc/profile.d/z.sh
