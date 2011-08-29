@@ -1,4 +1,8 @@
 
+# I loves me some vim
+
+export EDITOR=vim
+
 # add a user-specific folder to the PATH
 
 export PATH=$PATH:~/bin
