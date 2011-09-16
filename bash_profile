@@ -42,3 +42,7 @@ source `brew --prefix`/etc/profile.d/z.sh
 
 export GROOVY_HOME=/usr/local/Cellar/groovy/1.8.1/libexec
 
+# Play framework
+
+export PATH=$PATH:/Users/Justin/Code/play-1.2.3
+
