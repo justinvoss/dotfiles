@@ -5,7 +5,7 @@ export EDITOR=vim
 
 # add a user-specific folder to the PATH
 
-export PATH=$PATH:~/bin
+export PATH=$PATH:~/bin:/usr/local/bin
 
 # Git 
 
