@@ -30,15 +30,21 @@ ARCHFLAGS="-arch i386 x86_64"
 
 # virtualenvwrapper config
 
-export WORKON_HOME=~/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]
+then
+  export WORKON_HOME=~/.virtualenvs
+  source /usr/local/bin/virtualenvwrapper.sh
+fi
 
 # RVM config
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # z - jump around
 
-source `brew --prefix`/etc/profile.d/z.sh
+if [ -f /etc/profile.d/z.sh ]
+then
+  source `brew --prefix`/etc/profile.d/z.sh
+fi
 
 # sigh, Groovy
 
