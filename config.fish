@@ -20,6 +20,6 @@ function fish_prompt
   set_color white
   printf (prompt_pwd)
   set_color normal
-  printf '\n$ '
+  printf ' $ '
 end
 
